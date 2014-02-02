@@ -29,8 +29,8 @@
     <div class="col-md-4"><%= link_to 'Achates Capital Advisors, LLC', root_path, class: 'navbar-brand' %></div>
     <div class="col-md-8 masthead-address">
       <ul class="list-inline">
-        <li><i class="fa fa-home"></i> 3201 New Mexico Avenue, N.W. Suite 247 Washington, D.C.  20036</li>
-        <li><i class="fa fa-phone"></i> (202) 887-0552</li>
+        <li><i class="fa fa-home"></i> <%= strip_tags(@contact_address) %></li>
+        <li><i class="fa fa-phone"></i> <%= strip_tags(@contact_phone) %></li>
       </ul>
     </div>
   </div>
@@ -57,8 +57,8 @@
 </div> <!-- /container -->
 <div class="container" id="footer">
   <ul class="list-inline">
-    <li><i class="fa fa-home"></i> 3201 New Mexico Avenue, N.W. Suite 247 Washington, D.C.  20036</li>
-    <li><i class="fa fa-phone"></i> (202) 887-0552</li>
+    <li><i class="fa fa-home"></i> <%= strip_tags(@contact_address) %></li>
+    <li><i class="fa fa-phone"></i> <%= strip_tags(@contact_phone) %></li>
   </ul>
 </div>
 

@@ -65,7 +65,7 @@ class Admin::DynamicContentsController < ApplicationController
 
     respond_to do |format|
       if @dynamic_content.update_attributes(params[:dynamic_content])
-        format.html { redirect_to @dynamic_content, notice: 'Dynamic content was successfully updated.' }
+        format.html { redirect_to admin_dynamic_content_path, notice: 'Dynamic content was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: "edit" }
