@@ -1,27 +1,21 @@
-<h1>Listing dynamic_contents</h1>
+<%= link_to 'New', new_admin_dynamic_content_path, class: 'btn btn-success btn-sm' %>
+<hr>
+<h3>Dynamic Content</h3>
 
-<table>
+<table class="table table-hover">
   <tr>
     <th>Title</th>
-    <th>Key</th>
     <th>Value</th>
-    <th></th>
     <th></th>
     <th></th>
   </tr>
 
 <% @dynamic_contents.each do |dynamic_content| %>
   <tr>
-    <td><%= dynamic_content.title %></td>
-    <td><%= dynamic_content.key %></td>
+    <td><%= link_to dynamic_content.title, admin_dynamic_content_path(dynamic_content) %></td>
     <td><%= dynamic_content.value %></td>
-    <td><%= link_to 'Show', admin_dynamic_content_path(dynamic_content) %></td>
     <td><%= link_to 'Edit', edit_admin_dynamic_content_path(dynamic_content) %></td>
     <td><%= link_to 'Destroy', admin_dynamic_content_path(dynamic_content), :method => :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
 </table>
-
-<br />
-
-<%= link_to 'New Dynamic content', new_admin_dynamic_content_path %>
