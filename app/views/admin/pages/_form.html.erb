@@ -1,0 +1,34 @@
+<%= form_for([:admin, @page]) do |f| %>
+    <table class="table">
+      <tr>
+        <td colspan="2">
+          <% if @page.errors.any? %>
+              <div id="error_explanation">
+                <h2><%= pluralize(@page.errors.count, "error") %> prohibited this page from being saved:</h2>
+
+                <ul>
+                  <% @page.errors.full_messages.each do |msg| %>
+                      <li><%= msg %></li>
+                  <% end %>
+                </ul>
+              </div>
+          <% end %>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">Title:</td>
+        <td valign="top"><%= f.text_field :title %></td>
+      </tr>
+      <tr>
+        <td valign="top">Permalink:</td>
+        <td valign="top"><%= f.text_field :slug %></td>
+      </tr>
+      <tr>
+        <td valign="top">Content:</td>
+        <td valign="top"><%= f.text_area :content %></td>
+      </tr>
+      <tr>
+        <td colspan="2" valign="top"><%= f.submit %></td>
+      </tr>
+    </table>
+<% end %>

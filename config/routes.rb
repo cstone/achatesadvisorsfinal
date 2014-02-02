@@ -1,4 +1,30 @@
 Achatesadvisorsfinal::Application.routes.draw do
+
+
+
+
+  devise_scope :admins do
+    delete 'logout' => 'devise/sessions#destroy', :as => :destroy_admin_session
+  end
+  devise_for :admins
+
+
+  root :to => 'pages#show', id: '1'
+
+
+  resources :pages, only: [ :index ]
+
+  namespace :admin do
+    get '', to: 'dashboard#index', as: '/'
+    resources :pages
+    resources :admins
+    resources :dynamic_contents
+  end
+
+
+
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

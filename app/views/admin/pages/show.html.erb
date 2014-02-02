@@ -1,0 +1,6 @@
+<h4><%= @page.title %></h4>
+<p><%= raw(@page.content) %></p>
+
+
+<%= link_to 'Edit', edit_admin_page_path(@page), class: 'btn btn-warning btn-sm' %>
+<%= link_to 'Back to all pages', admin_pages_path, class: 'btn btn-default btn-sm' %>
