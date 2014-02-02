@@ -44,7 +44,7 @@
       <ul class="nav nav-pills nav-stacked">
         <li class="<%= 'active' if current_page?admin_path %>"><%= link_to 'Dashboard', admin_path %></li>
         <li class="<%= 'active' if current_page?admin_pages_path %>"><%= link_to 'Manage Pages', admin_pages_path %></li>
-        <li class="<%= 'active' if current_page?admin_dynamic_contents_path %>"><%= link_to 'Manage Dynamic Content', admin_dynamic_contents_path %></li>
+        <li class="<%= 'active' if current_page?admin_dynamic_contents_path %>"><%= link_to 'Manage Snippets', admin_dynamic_contents_path %></li>
         <li class="<%= 'active' if current_page?admin_admins_path %>"><%= link_to 'Manage Administrators', admin_admins_path %></li>
         <li><%= link_to 'Logout', destroy_admin_session_path(protocol: 'https'), :method => :delete %></li>
       </ul>

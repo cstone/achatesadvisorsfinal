@@ -1,29 +1,32 @@
 <%= form_for([:admin, @dynamic_content]) do |f| %>
-  <% if @dynamic_content.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@dynamic_content.errors.count, "error") %> prohibited this dynamic_content from being saved:</h2>
+    <table width="100%" class="table">
+      <tr>
+        <td colspan="2">  <% if @dynamic_content.errors.any? %>
+              <div id="error_explanation">
+                <h2><%= pluralize(@dynamic_content.errors.count, "error") %> prohibited this dynamic_content from being saved:</h2>
 
-      <ul>
-      <% @dynamic_content.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
-
-  <div class="field">
-    <%= f.label :title %><br />
-    <%= f.text_field :title %>
-  </div>
-  <div class="field">
-    <%= f.label :key %><br />
-    <%= f.text_field :key %>
-  </div>
-  <div class="field">
-    <%= f.label :value %><br />
-    <%= f.text_area :value %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+                <ul>
+                  <% @dynamic_content.errors.full_messages.each do |msg| %>
+                      <li><%= msg %></li>
+                  <% end %>
+                </ul>
+              </div>
+          <% end %></td>
+      </tr>
+      <tr>
+        <td width="12%">Title:</td>
+        <td width="88%"><%= f.text_field :title %></td>
+      </tr>
+      <tr>
+        <td>Key:</td>
+        <td><%= f.text_field :key %></td>
+      </tr>
+      <tr>
+        <td>Value:</td>
+        <td><%= f.text_area :value %></td>
+      </tr>
+      <tr>
+        <td colspan="2"><%= f.submit %></td>
+      </tr>
+    </table>
 <% end %>

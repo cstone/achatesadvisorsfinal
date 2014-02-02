@@ -16,19 +16,15 @@
         </td>
       </tr>
       <tr>
-        <td valign="top">Title:</td>
+        <td valign="top">Page Title:</td>
         <td valign="top"><%= f.text_field :title %></td>
-      </tr>
-      <tr>
-        <td valign="top">Permalink:</td>
-        <td valign="top"><%= f.text_field :slug %></td>
       </tr>
       <tr>
         <td valign="top">Content:</td>
         <td valign="top"><%= f.text_area :content %></td>
       </tr>
       <tr>
-        <td colspan="2" valign="top"><%= f.submit %></td>
+        <td colspan="2" valign="top"><%= f.submit 'Save', class: 'btn btn-success btn-sm' %></td>
       </tr>
     </table>
 <% end %>

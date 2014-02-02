@@ -1,20 +1,20 @@
-<p id="notice"><%= notice %></p>
+<table width="100%" border="0">
+  <tr>
+    <td align="right"><%= link_to 'Edit', edit_admin_dynamic_content_path(@dynamic_content), class: 'btn btn-warning btn-sm' %>
+    </td>
+  </tr>
+</table>
+<hr>
+<h3><%= @dynamic_content.title %></h3>
+<table width="100%" class="table">
+  <tr>
+    <td>Title:</td>
+    <td><%= @dynamic_content.title %></td>
+  </tr>
+  <tr>
+    <td>Value:</td>
+    <td><%= strip_tags(@dynamic_content.value) %></td>
+  </tr>
+</table>
 
-<p>
-  <b>Title:</b>
-  <%= @dynamic_content.title %>
-</p>
 
-<p>
-  <b>Key:</b>
-  <%= @dynamic_content.key %>
-</p>
-
-<p>
-  <b>Value:</b>
-  <%= @dynamic_content.value %>
-</p>
-
-
-<%= link_to 'Edit', edit_admin_dynamic_content_path(@dynamic_content) %> |
-<%= link_to 'Back', admin_dynamic_contents_path %>
