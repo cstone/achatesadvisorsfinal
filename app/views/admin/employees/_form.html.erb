@@ -25,11 +25,11 @@
       </tr>
       <tr>
         <td>Image:</td>
-        <td><%= f.file_field :employee_image %> <%= f.check_box :remove_employee_image %>  Check here to remove this image.</td>
+        <td><%= f.file_field :employee_image %> <%= f.check_box :remove_employee_image %>  Check here to remove existing image.</td>
       </tr>
       <tr>
         <td>Resume:</td>
-        <td><%= f.file_field :resume %> <%= f.check_box :remove_resume %> Check here to remove this resume.</td>
+        <td><%= f.file_field :resume %> <%= f.check_box :remove_resume %> Check here to remove existing resume.</td>
       </tr>
       <tr>
         <td><%= f.submit 'Save', class: 'btn btn-success btn-sm' %></td>

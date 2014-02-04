@@ -6,7 +6,10 @@ Achatesadvisorsfinal::Application.routes.draw do
   root :to => 'pages#show', id: '1'
 
 
-  resources :pages, only: [ :index ]
+  resources :pages, only: [ :index, :show ]
+
+  get 'contact' => 'pages#show', id: '3', as: 'contact'
+  get 'about' => 'pages#show', id: '2', as: 'about'
 
   namespace :admin do
     get '', to: 'dashboard#index', as: '/'

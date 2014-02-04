@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Achates Capital Advisors, LLC</title>
+  <%= stylesheet_link_tag 'application.css' %>
   <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
   <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
   <link href="https://s3.amazonaws.com/achatesadvisors/app/assets/stylesheets/my_styles.css" rel="stylesheet">
@@ -30,7 +31,6 @@
     <div class="col-md-8 masthead-address">
       <ul class="list-inline">
         <li><i class="fa fa-home"></i> <%= strip_tags(@contact_address) %></li>
-        <li><i class="fa fa-phone"></i> <%= strip_tags(@contact_phone) %></li>
       </ul>
     </div>
   </div>
@@ -43,8 +43,8 @@
     <div class="col-md-3">
       <ul class="nav nav-pills nav-stacked">
         <li class="<%= 'active' if current_page?root_path %>"><%= link_to 'Home', root_path %></li>
-        <li><%= link_to 'About Us' %></li>
-        <li><%= link_to 'Contact Us' %></li>
+        <li class="<%= 'active' if current_page?about_path %>"><%= link_to 'About', about_path %></li>
+        <li class="<%= 'active' if current_page?contact_path %>"><%= link_to 'Contact', contact_path %></li>
       </ul>
     </div>
     <div class="col-md-9">
