@@ -1,0 +1,26 @@
+<table width="100%" border="0">
+  <tr>
+    <td align="right"><%= link_to 'New Employee', new_admin_employee_path, class: 'btn btn-success btn-sm' %></td>
+  </tr>
+</table>
+<hr>
+<h4>Employees</h4>
+
+<table width="100%" class="table">
+  <tr>
+    <th width="7%"></th>
+    <th width="38%">Name</th>
+    <th width="34%">Resume</th>
+    <th width="21%"></th>
+  </tr>
+
+  <% @employees.each do |employee| %>
+      <tr>
+        <td><% if !employee.employee_image.to_s.empty? %><%= image_tag employee.employee_image.url(:thumb).to_s %><% end %></td>
+        <td><%= link_to employee.name, admin_employee_path(employee) %></td>
+        <td><% if !employee.resume.to_s.empty? %><%= link_to 'Download', employee.resume.to_s %><% end %></td>
+        <td align="right"><%= link_to 'Edit', edit_admin_employee_path(employee), class: 'btn btn-warning btn-sm' %> <%= link_to 'Delete', admin_employee_path(employee), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger btn-sm' %></td>
+      </tr>
+  <% end %>
+</table>
+

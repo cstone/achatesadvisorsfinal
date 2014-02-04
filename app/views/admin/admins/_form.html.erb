@@ -1,0 +1,34 @@
+<%= form_for([:admin, @admin]) do |f| %>
+    <table class="table">
+      <tr>
+        <td colspan="2">
+          <% if @admin.errors.any? %>
+              <div id="error_explanation">
+                <h2><%= pluralize(@admin.errors.count, "error") %> prohibited this page from being saved:</h2>
+
+                <ul>
+                  <% @admin.errors.full_messages.each do |msg| %>
+                      <li><%= msg %></li>
+                  <% end %>
+                </ul>
+              </div>
+          <% end %>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">Email:</td>
+        <td valign="top"><%= f.text_field :email, class: 'form-control' %></td>
+      </tr>
+      <tr>
+        <td valign="top">Password:</td>
+        <td valign="top"><%= f.text_field :password, class: 'form-control' %></td>
+      </tr>
+      <tr>
+        <td valign="top">Password Confirmation:</td>
+        <td valign="top"><%= f.text_field :password_confirmation, class: 'form-control' %></td>
+      </tr>
+      <tr>
+        <td colspan="2" valign="top"><%= f.submit 'Save', class: 'btn btn-success btn-sm' %></td>
+      </tr>
+    </table>
+<% end %>

@@ -1,11 +1,5 @@
 Achatesadvisorsfinal::Application.routes.draw do
 
-
-
-
-  devise_scope :admins do
-    delete 'logout' => 'devise/sessions#destroy', :as => :destroy_admin_session
-  end
   devise_for :admins
 
 
@@ -19,10 +13,8 @@ Achatesadvisorsfinal::Application.routes.draw do
     resources :pages
     resources :admins
     resources :dynamic_contents
+    resources :employees
   end
-
-
-
 
 
   # The priority is based upon order of creation:

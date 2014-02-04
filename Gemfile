@@ -22,6 +22,10 @@ end
 
 gem 'jquery-rails'
 gem 'devise'
+gem 'carrierwave'
+gem 'fog'
+gem 'rmagick', '2.13.2', :require => 'RMagick'
+gem 'figaro'
 
 group :development do
   gem 'better_errors'
