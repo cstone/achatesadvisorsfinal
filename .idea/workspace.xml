@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb7e3e5d-2639-4068-b35d-51be9c8bc25b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/about/index.html.erb" afterPath="$PROJECT_DIR$/app/views/about/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="achatesadvisorsfinal.iws" />
@@ -54,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="14" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="3077">
+            <state line="33" column="12" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.79480517" vertical-offset="255" max-vertical-offset="3145">
               <folding />
             </state>
           </provider>
@@ -81,10 +82,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/about/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="55" selection-start="355" selection-end="355" vertical-scroll-proportion="0.19653179" vertical-offset="0" max-vertical-offset="346">
+            <state line="4" column="55" selection-start="355" selection-end="355" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="221">
               <folding />
             </state>
           </provider>
@@ -93,7 +94,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="24" selection-start="1120" selection-end="1120" vertical-scroll-proportion="-5.230769" vertical-offset="357" max-vertical-offset="1377">
+            <state line="26" column="52" selection-start="965" selection-end="965" vertical-scroll-proportion="-9.153846" vertical-offset="204" max-vertical-offset="1377">
               <folding />
             </state>
           </provider>
@@ -176,11 +177,11 @@
         <option value="$PROJECT_DIR$/app/views/admin/pages/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/models/page.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/admin/pages/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/models/admin.rb" />
         <option value="$PROJECT_DIR$/app/views/about/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
       </list>
     </option>
   </component>
@@ -665,7 +666,11 @@
       <created>1391615467240</created>
       <updated>1391615467240</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Add name to resume download link&#10;">
+      <created>1391616236685</created>
+      <updated>1391616236685</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -997,13 +1002,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="24" selection-start="1120" selection-end="1120" vertical-scroll-proportion="-5.230769" vertical-offset="357" max-vertical-offset="1377">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin/pages/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="264" selection-end="264" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="272">
@@ -1018,13 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="14" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="3077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/admin.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="52" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
@@ -1034,7 +1025,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/about/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="55" selection-start="355" selection-end="355" vertical-scroll-proportion="0.19653179" vertical-offset="0" max-vertical-offset="346">
+        <state line="4" column="55" selection-start="355" selection-end="355" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="52" selection-start="965" selection-end="965" vertical-scroll-proportion="-9.153846" vertical-offset="204" max-vertical-offset="1377">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="12" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.79480517" vertical-offset="255" max-vertical-offset="3145">
           <folding />
         </state>
       </provider>

@@ -21,13 +21,17 @@ a.navbar-brand {
     color: #C05429;
 }
 
+.border-top {
+   border-top: 3px solid #C05429;
+}
+
 body {
     background: #E3DDB9;
     /*background: -webkit-linear-gradient(#C4732A, #9D4726); *//* For Safari */
     /*background: -o-linear-gradient(#C4732A, #9D4726); *//* For Opera 11.1 to 12.0 */
     /*background: -moz-linear-gradient(#C4732A, #9D4726); *//* For Firefox 3.6 to 15 */
     /*background: linear-gradient(#C4732A, #9D4726); *//* Standard syntax */
-    margin: 20px 0 0px;
+    margin: 0px 0 0px;
     color: #3B3B3B;
 }
 
