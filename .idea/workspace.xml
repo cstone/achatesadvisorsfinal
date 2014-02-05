@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bb7e3e5d-2639-4068-b35d-51be9c8bc25b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="achatesadvisorsfinal.iws" />
@@ -58,7 +57,7 @@
       <file leaf-file-name="application.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="12" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.79480517" vertical-offset="255" max-vertical-offset="3145">
+            <state line="24" column="16" selection-start="675" selection-end="675" vertical-scroll-proportion="0.39740258" vertical-offset="255" max-vertical-offset="3145">
               <folding />
             </state>
           </provider>
@@ -670,7 +669,11 @@
       <created>1391616236685</created>
       <updated>1391616236685</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Add border top">
+      <created>1391617557531</created>
+      <updated>1391617557531</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -731,7 +734,8 @@
     <MESSAGE value="Change resume capitalization" />
     <MESSAGE value="Add name to resume download link" />
     <MESSAGE value="Add name to resume download link&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add name to resume download link&#10;" />
+    <MESSAGE value="Add border top" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add border top" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1039,7 +1043,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="12" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.79480517" vertical-offset="255" max-vertical-offset="3145">
+        <state line="24" column="16" selection-start="675" selection-end="675" vertical-scroll-proportion="0.39740258" vertical-offset="255" max-vertical-offset="3145">
           <folding />
         </state>
       </provider>
