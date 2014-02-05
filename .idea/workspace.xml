@@ -84,7 +84,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/about/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="73" selection-start="373" selection-end="373" vertical-scroll-proportion="0.19653179" vertical-offset="0" max-vertical-offset="346">
+            <state line="5" column="13" selection-start="434" selection-end="434" vertical-scroll-proportion="0.24566475" vertical-offset="0" max-vertical-offset="346">
               <folding />
             </state>
           </provider>
@@ -653,7 +653,11 @@
       <created>1391611399027</created>
       <updated>1391611399027</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Change resume capitalization">
+      <created>1391614930957</created>
+      <updated>1391614930957</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -711,7 +715,8 @@
     <MESSAGE value="Add logo" />
     <MESSAGE value="Lower body margin top" />
     <MESSAGE value="Disable devise admin registration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Disable devise admin registration" />
+    <MESSAGE value="Change resume capitalization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change resume capitalization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1019,7 +1024,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/about/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="73" selection-start="373" selection-end="373" vertical-scroll-proportion="0.19653179" vertical-offset="0" max-vertical-offset="346">
+        <state line="5" column="13" selection-start="434" selection-end="434" vertical-scroll-proportion="0.24566475" vertical-offset="0" max-vertical-offset="346">
           <folding />
         </state>
       </provider>
