@@ -1,5 +1,7 @@
 Achatesadvisorsfinal::Application.routes.draw do
 
+  get "about/index"
+
   devise_for :admins
 
 
@@ -9,7 +11,9 @@ Achatesadvisorsfinal::Application.routes.draw do
   resources :pages, only: [ :index, :show ]
 
   get 'contact' => 'pages#show', id: '3', as: 'contact'
-  get 'about' => 'pages#show', id: '2', as: 'about'
+  get 'about_us' => 'pages#show', id: '2', as: 'about_us'
+  get 'about' => 'about#index', as: 'about'
+
 
   namespace :admin do
     get '', to: 'dashboard#index', as: '/'

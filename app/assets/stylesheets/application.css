@@ -16,3 +16,7 @@
     font-family: 'Artifika', serif;
     font-size: 26px;
 }
+
+a.navbar-brand {
+    color: #C05429;
+}

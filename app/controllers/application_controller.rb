@@ -1,13 +1,14 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
 
-  before_filter :get_dynamic_content, :get_all_employees
+  before_filter :get_dynamic_content
+  before_filter :get_all_employees
 
   def after_sign_in_path_for(admin)
     admin_path
   end
 
-  def after_sign_out_path_for(resource)
+  def after_sign_out_path_for(admin)
     root_path
   end
 
@@ -19,5 +20,6 @@ class ApplicationController < ActionController::Base
 
   def get_all_employees
     @all_employees = Employee.all
+    @all_employees_alpha = Employee.order(:name)
   end
 end
