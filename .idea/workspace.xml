@@ -84,7 +84,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/about/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="80" selection-start="380" selection-end="380" vertical-scroll-proportion="0.19653179" vertical-offset="0" max-vertical-offset="346">
+            <state line="4" column="55" selection-start="355" selection-end="355" vertical-scroll-proportion="0.19653179" vertical-offset="0" max-vertical-offset="346">
               <folding />
             </state>
           </provider>
@@ -661,7 +661,11 @@
       <created>1391615270113</created>
       <updated>1391615270113</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Add name to resume download link&#10;">
+      <created>1391615467240</created>
+      <updated>1391615467240</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -721,7 +725,8 @@
     <MESSAGE value="Disable devise admin registration" />
     <MESSAGE value="Change resume capitalization" />
     <MESSAGE value="Add name to resume download link" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add name to resume download link" />
+    <MESSAGE value="Add name to resume download link&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add name to resume download link&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1029,7 +1034,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/about/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="80" selection-start="380" selection-end="380" vertical-scroll-proportion="0.19653179" vertical-offset="0" max-vertical-offset="346">
+        <state line="4" column="55" selection-start="355" selection-end="355" vertical-scroll-proportion="0.19653179" vertical-offset="0" max-vertical-offset="346">
           <folding />
         </state>
       </provider>
