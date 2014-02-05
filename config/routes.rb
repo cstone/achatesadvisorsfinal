@@ -10,8 +10,8 @@ Achatesadvisorsfinal::Application.routes.draw do
 
   resources :pages, only: [ :index, :show ]
 
-  get 'contact' => 'pages#show', id: '2', as: 'contact'
-  get 'about' => 'about#index', as: 'about'
+  get 'contactus' => 'pages#show', id: '2', as: 'contact'
+  get 'aboutus' => 'about#index', as: 'about'
 
 
   namespace :admin do

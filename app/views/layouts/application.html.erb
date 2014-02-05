@@ -26,8 +26,9 @@
 
 <div class="container  container-bg-white">
   <div class="row">
+    <div class="col-md-2"><%= image_tag 'https://s3.amazonaws.com/achatesadvisors/app/assets/images/logo.jpg' %></div>
     <div class="col-md-4"><%= link_to 'Achates Capital Advisors, LLC', root_path, class: 'navbar-brand' %></div>
-    <div class="col-md-8 masthead-address">
+    <div class="col-md-6 masthead-address">
       <ul class="list-inline">
         <li><i class="fa fa-home"></i> <%= strip_tags(@contact_address) %></li>
       </ul>
