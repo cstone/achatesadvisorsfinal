@@ -10,7 +10,7 @@ Achatesadvisorsfinal::Application.routes.draw do
 
   resources :pages, only: [ :index, :show ]
 
-  get 'contact' => 'pages#show', id: '3', as: 'contact'
+  get 'contact' => 'pages#show', slug: 'contact', as: 'contact'
   get 'about_us' => 'pages#show', id: '2', as: 'about_us'
   get 'about' => 'about#index', as: 'about'
 
